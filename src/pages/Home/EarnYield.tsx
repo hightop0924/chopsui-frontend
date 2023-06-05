@@ -7,10 +7,10 @@ import { Button } from "@/components/Button";
 
 export default function EarnYield() {
   return (
-    <div className="bg-gradient-to-t from-primary-50 grid grid-cols-2 font-rubik  text-white to-primary-150 p-20 px-32">
+    <div className="bg-gradient-to-t gap-5 from-primary-50 grid p-5 md:grid-cols-2 font-rubik  text-white to-primary-150 md:p-20 md:px-32">
       <img src={listSvg} alt="" className="" />
       <div className=" content-start">
-        <h1 className=" text-secondary-50 text-4xl font-bold">
+        <h1 className=" text-secondary-50 text-2xl md:text-4xl font-bold">
           EARN EXTRA YIELD
         </h1>
         <div className="flex gap-5 mt-8">
@@ -52,7 +52,7 @@ export default function EarnYield() {
         </div>
         <Button
           variant="primary"
-          className="text-secondary-50 mt-8 w-96 col-span-2  !font-[inter] justify-between !px-7 py-5 gap-20 text-xl"
+          className="text-secondary-50 mt-8 md:w-96 col-span-2  !font-[inter] justify-between md:!px-7 md:py-5 py-4 gap-20 text-lg"
         >
           Start Earning
           <img src={arrowSvg} />

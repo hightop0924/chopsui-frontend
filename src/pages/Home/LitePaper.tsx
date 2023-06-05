@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 
 export default function LitePaper() {
   return (
-    <div className="bg-gradient-to-t from-primary-50 grid grid-cols-2 font-rubik  text-white to-primary-150 p-20 px-32">
+    <div className="bg-gradient-to-t from-primary-50 grid md:grid-cols-2 font-rubik  text-white to-primary-150 p-5 md:py-20  md:px-32">
       <div className="content-center grid gap-5">
-        <h1 className=" text-secondary-50 text-4xl font-bold">
+        <h1 className=" text-secondary-50 text-3xl md:text-4xl font-bold">
           TOKEN SPECIFIACTION
         </h1>
         <p className="max-w-lg">
@@ -21,7 +21,7 @@ export default function LitePaper() {
           Litepaper
         </Link>
       </div>
-      <img src={litePaperSvg} alt="" />
+      <img src={litePaperSvg} alt="" className="md:mt-0 mt-10" />
     </div>
   );
 }
