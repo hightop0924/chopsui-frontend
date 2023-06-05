@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Bullina';
-    src: local('Bullina'), url(@/assets/bullina/bullina.otf) format('opentype');
+    src: local('Bullina'), url(@/assets/bullina/Bullina.otf) format('opentype');
     font-display: block;
 }
 
