@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Bullina';
+    src: local('Bullina'), url(@/assets/bullina/bullina.otf) format('opentype');
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: local('Rubik'), url(@/assets/rubik/Rubik-Regular.ttf) format('truetype');
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Lemon';
+    src: local('Lemon'), url(@/assets/lemon/Lemon-Regular.ttf) format('truetype');
+    font-display: block;
+}
+
+body {
+    font-family: 'bullina', sans-serif;
+    font-family: 'rubik', sans-serif;
+    font-family: 'lemon', sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
