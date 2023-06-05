@@ -3,3 +3,8 @@ export interface LinkData {
   sublinks?: LinkData[];
   link: string;
 }
+
+export interface UserDataProp {
+  username: string;
+  email: string;
+}
