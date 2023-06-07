@@ -4,6 +4,7 @@ import twitterSvg from "@/assets/svgs/twitter.svg";
 import discordSvg from "@/assets/svgs/discord.svg";
 import { Button } from "@/components/Button";
 import { LinkData } from "@/types";
+import { Link } from "react-router-dom";
 
 export const links: LinkData[] = [
   {
@@ -44,12 +45,24 @@ export default function Footer() {
             platform for the future finance. Join us!
           </p>
           <div className="flex gap-3 font-rubik">
-            <Button className="bg-secondary-100 !p-2">
-              <img src={twitterSvg} className="w-5 h-5" />
-            </Button>
-            <Button className="bg-secondary-100 !p-2">
-              <img src={discordSvg} className="w-5 h-5" />
-            </Button>
+            <Link
+              to="https://twitter.com/OfficialChopSui"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-secondary-100 !p-2">
+                <img src={twitterSvg} className="w-5 h-5" />
+              </Button>
+            </Link>
+            <Link
+              to="https://discord.gg/FbK47VPjBv"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-secondary-100 !p-2">
+                <img src={discordSvg} className="w-5 h-5" />
+              </Button>
+            </Link>
           </div>
         </div>
         <div className="grid grid-cols-2 gap-16 md:gap-10 md:col-span-3 md:my-0 my-5 ">

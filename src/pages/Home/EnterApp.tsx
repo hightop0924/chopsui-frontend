@@ -6,6 +6,7 @@ import moonSvg from "@/assets/svgs/moon.svg";
 import twitterSvg from "@/assets/svgs/twitter.svg";
 import discordSvg from "@/assets/svgs/discord.svg";
 import { Button } from "@/components/Button";
+import { Link } from "react-router-dom";
 
 export default function EnterApp() {
   return (
@@ -36,12 +37,24 @@ export default function EnterApp() {
             Join us on <img src={arrowWhiteSvg} />
           </Button>
           <div className="flex gap-3 font-rubik">
-            <Button className="bg-blue-50 !p-2">
-              <img src={twitterSvg} className="w-5 h-5" />
-            </Button>
-            <Button className="bg-blue-50 !p-2">
-              <img src={discordSvg} className="w-5 h-5" />
-            </Button>
+            <Link
+              to="https://twitter.com/OfficialChopSui"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-blue-50 !p-2">
+                <img src={twitterSvg} className="w-5 h-5" />
+              </Button>
+            </Link>
+            <Link
+              to="https://discord.gg/FbK47VPjBv"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button className="bg-blue-50 !p-2">
+                <img src={discordSvg} className="w-5 h-5" />
+              </Button>
+            </Link>
           </div>
         </div>
       </div>

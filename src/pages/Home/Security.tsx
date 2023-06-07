@@ -4,6 +4,7 @@ import security3Svg from "@/assets/svgs/security3.svg";
 import { Button } from "@/components/Button";
 import twitterSvg from "@/assets/svgs/twitter.svg";
 import discordSvg from "@/assets/svgs/discord.svg";
+import { Link } from "react-router-dom";
 
 export default function Security() {
   return (
@@ -28,12 +29,24 @@ export default function Security() {
           <h1 className="md:text-4xl font-bold mt-2">Join Community</h1>
         </div>
         <div className="bg-gradient-to-t from-blue-200 to-blue-300 rounded-xl flex md:px-7 md:py-5 md:gap-5 p-3 gap-3">
-          <Button className="bg-blue-50 !p-2">
-            <img src={twitterSvg} className="w-5 h-5" />
-          </Button>
-          <Button className="bg-blue-50 !p-2">
-            <img src={discordSvg} className="w-5 h-5" />
-          </Button>
+          <Link
+            to="https://twitter.com/OfficialChopSui"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="bg-blue-50 !p-2">
+              <img src={twitterSvg} className="w-5 h-5" />
+            </Button>
+          </Link>
+          <Link
+            to="https://discord.gg/FbK47VPjBv"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button className="bg-blue-50 !p-2">
+              <img src={discordSvg} className="w-5 h-5" />
+            </Button>
+          </Link>
         </div>
       </div>
     </div>
