@@ -7,8 +7,12 @@ import { Button } from "@/components/Button";
 
 export default function EarnYield() {
   return (
-    <div className="bg-gradient-to-t gap-5 from-primary-50 grid p-5 md:grid-cols-2 font-rubik  text-white to-primary-150 md:p-20 md:px-32">
-      <img src={listSvg} alt="" className="" />
+    <div className="bg-gradient-to-t gap-5 from-primary-50 grid p-5 lg:grid-cols-2 font-rubik  text-white to-primary-150 md:p-20 md:px-32">
+      <img
+        src={listSvg}
+        alt=""
+        className="lg:justify-self-start justify-self-center"
+      />
       <div className=" content-start">
         <h1 className=" text-secondary-50 text-2xl md:text-4xl font-bold">
           EARN EXTRA YIELD

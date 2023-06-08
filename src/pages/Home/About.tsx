@@ -11,10 +11,10 @@ export default function About() {
           Earn sustainable yields to compound your holdings
         </p>
       </div>
-      <div className="md:flex grid gap-3 md:mt-28 mt-10 justify-evenly  ">
-        <img src={about1Svg} alt="" className="md:mb-32" />
-        <img src={about2Svg} alt="" className="" />
-        <img src={about3Svg} alt="" className="md:mb-32" />
+      <div className="flex flex-wrap gap-3 gap-y-10 min-h-[450px] md:mt-10 mt-10 justify-evenly  ">
+        <img src={about1Svg} alt="" />
+        <img src={about2Svg} alt="" className="self-end" />
+        <img src={about3Svg} alt="" />
       </div>
     </div>
   );

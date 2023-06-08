@@ -16,7 +16,7 @@ export default function EnterApp() {
         className="right-0 top-0 md:block hidden  absolute z-0  "
       ></img>
       <div
-        className="bg-gradient-to-t from-primary-50 to-primary-150 pt-20 md:py-32 px-5  md:px-32"
+        className="bg-gradient-to-t from-primary-50 to-primary-150 pt-20 md:pt-32  px-5  md:px-32"
         style={{
           backgroundImage: `url(${enterAppSvg})`,
         }}

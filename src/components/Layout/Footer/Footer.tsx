@@ -29,9 +29,9 @@ export const links: LinkData[] = [
 
 export default function Footer() {
   return (
-    <div className="grid font-rubik py-10 bg-gradient-to-t from-primary-50 md:px-32 px-5 to-primary-150 gap-10 place-items-center">
+    <div className="grid font-rubik py-10 bg-gradient-to-t from-primary-50 2xl:px-32 xl:px-24 lg:px-10 md:px-5 px-5 to-primary-150 gap-10 place-items-center">
       <div className="grid md:grid-cols-10 grid-cols-1  px-5 place-items-start  md:place-content-between  text-white w-full">
-        <div className="md:col-span-2 grid">
+        <div className="md:col-span-2 grid pr-2">
           <img src={logoSvg} className="w-32 place-self-center" />
           <img src={chopsuiSvg} className="w-40" />
         </div>

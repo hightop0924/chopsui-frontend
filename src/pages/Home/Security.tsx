@@ -17,7 +17,7 @@ export default function Security() {
           monitored to ensure that your funds are always safe.
         </p>
       </div>
-      <div className="md:flex grid md:mt-20 mt-5 justify-center gap-3 md:gap-10  ">
+      <div className="flex flex-wrap md:mt-20 mt-5 justify-center gap-3 md:gap-10  ">
         <img src={security1Svg} alt="" />
         <img src={security2Svg} alt="" />
         <img src={security3Svg} alt="" />
