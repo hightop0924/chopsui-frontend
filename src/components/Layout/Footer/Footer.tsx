@@ -10,7 +10,6 @@ export const links: LinkData[] = [
   {
     title: "Service",
     sublinks: [
-      { title: "Trade", link: "#" },
       { title: "Earn", link: "#" },
       { title: "Swap", link: "#" },
       { title: "Anaytics", link: "#" },
