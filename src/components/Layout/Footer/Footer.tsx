@@ -32,8 +32,8 @@ export default function Footer() {
     <div className="grid font-rubik py-10 bg-gradient-to-t from-primary-50 2xl:px-32 xl:px-24 lg:px-10 md:px-5 px-5 to-primary-150 gap-10 place-items-center">
       <div className="grid md:grid-cols-10 grid-cols-1  px-5 place-items-start  md:place-content-between  text-white w-full">
         <div className="md:col-span-2 grid pr-2">
-          <img src={logoSvg} className="w-32 place-self-center" />
-          <img src={chopsuiSvg} className="w-40" />
+          <img src={logoSvg} alt="logo" className="w-32 place-self-center" />
+          <img src={chopsuiSvg} alt="chopsui" className="w-40" />
         </div>
         <div className="grid gap-3 md:col-span-5 md:mt-0 mt-10 ">
           <h1 className="font-rubik text-secondary-50 text-xl font-bold uppercase">
@@ -49,8 +49,8 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button className="bg-secondary-100 !p-2">
-                <img src={twitterSvg} className="w-5 h-5" />
+              <Button className="bg-secondary-100 !p-2" aria-label="twitter">
+                <img src={twitterSvg} alt="twitter" className="w-5 h-5" />
               </Button>
             </Link>
             <Link
@@ -58,8 +58,8 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button className="bg-secondary-100 !p-2">
-                <img src={discordSvg} className="w-5 h-5" />
+              <Button className="bg-secondary-100 !p-2" aria-label="discord">
+                <img src={discordSvg} alt="discord" className="w-5 h-5" />
               </Button>
             </Link>
           </div>

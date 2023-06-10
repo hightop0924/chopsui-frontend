@@ -12,9 +12,9 @@ export default function About() {
         </p>
       </div>
       <div className="flex flex-wrap gap-3 gap-y-10 min-h-[450px] md:mt-10 mt-10 justify-evenly  ">
-        <img src={about1Svg} alt="" />
-        <img src={about2Svg} alt="" className="self-end" />
-        <img src={about3Svg} alt="" />
+        <img src={about1Svg} alt="about1" />
+        <img src={about2Svg} alt="about2" className="self-end" />
+        <img src={about3Svg} alt="about3" />
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ export default function EarnYield() {
     <div className="bg-gradient-to-t gap-5 from-primary-50 grid p-5 lg:grid-cols-2 font-rubik  text-white to-primary-150 md:p-20 md:px-32">
       <img
         src={listSvg}
-        alt=""
+        alt="list"
         className="lg:justify-self-start justify-self-center"
       />
       <div className=" content-start">
@@ -27,7 +27,7 @@ export default function EarnYield() {
           </div>
         </div>
         <div className="flex gap-5 mt-5">
-          <img src={factSvg} />
+          <img src={factSvg} alt="fact" />
           <div className="grid  ">
             <h1 className="text-xl font-bold text-blue-50">
               take $CHOP and other SUI-ecosystem tokens on our platform
@@ -35,7 +35,7 @@ export default function EarnYield() {
           </div>
         </div>
         <div className="flex gap-5 mt-5">
-          <img src={farmSvg} />
+          <img src={farmSvg} alt="farm" />
           <div className="grid  ">
             <h1 className="text-xl font-bold text-blue-50">Yield farms</h1>
             <p>
@@ -45,7 +45,7 @@ export default function EarnYield() {
           </div>
         </div>
         <div className="flex gap-5 mt-5">
-          <img src={farmSvg} />
+          <img src={farmSvg} alt="farm" />
           <div className="grid  ">
             <h1 className="text-xl font-bold text-blue-50">Yield strategy</h1>
             <p>
@@ -59,7 +59,7 @@ export default function EarnYield() {
           className="text-secondary-50 mt-8 md:w-96 col-span-2  !font-[inter] justify-between md:!px-7 md:py-5 py-4 gap-20 text-lg"
         >
           Start Earning
-          <img src={arrowSvg} />
+          <img src={arrowSvg} alt="arrow" />
         </Button>
       </div>
     </div>

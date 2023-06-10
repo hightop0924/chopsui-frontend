@@ -22,7 +22,7 @@ export default function LitePaper() {
           Litepaper
         </Link>
       </div>
-      <img src={litePaperSvg} alt="" className="md:mt-0 mt-10" />
+      <img src={litePaperSvg} alt="literpaper" className="md:mt-0 mt-10" />
     </div>
   );
 }

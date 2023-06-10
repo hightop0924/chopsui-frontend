@@ -18,9 +18,9 @@ export default function Security() {
         </p>
       </div>
       <div className="flex flex-wrap md:mt-20 mt-5 justify-center gap-3 md:gap-10  ">
-        <img src={security1Svg} alt="" />
-        <img src={security2Svg} alt="" />
-        <img src={security3Svg} alt="" />
+        <img src={security1Svg} alt="security1" />
+        <img src={security2Svg} alt="security2" />
+        <img src={security3Svg} alt="security3" />
       </div>
       <div className="bg-blue-100 w-full h-[1px] mt-10"></div>
       <div className="flex text-secondary-50 mt-12 md:px-10 justify-between ">
@@ -34,8 +34,8 @@ export default function Security() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button className="bg-blue-50 !p-2">
-              <img src={twitterSvg} className="w-5 h-5" />
+            <Button className="bg-blue-50 !p-2" aria-label="twitterbutton">
+              <img src={twitterSvg} alt="twitter" className="w-5 h-5" />
             </Button>
           </Link>
           <Link
@@ -43,8 +43,8 @@ export default function Security() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Button className="bg-blue-50 !p-2">
-              <img src={discordSvg} className="w-5 h-5" />
+            <Button className="bg-blue-50 !p-2" aria-label="discordbutton">
+              <img src={discordSvg} alt="discord" className="w-5 h-5" />
             </Button>
           </Link>
         </div>

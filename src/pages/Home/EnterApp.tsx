@@ -13,6 +13,7 @@ export default function EnterApp() {
     <div className="bg-gradient-to-t from-primary-150 to-primary-50">
       <img
         src={moonSvg}
+        alt="moon"
         className="right-0 top-0 md:block hidden  absolute z-0  "
       ></img>
       <div
@@ -21,7 +22,11 @@ export default function EnterApp() {
           backgroundImage: `url(${enterAppSvg})`,
         }}
       >
-        <img src={chopsuiSvg} className="mt-20 md:w-[501px] w-48" />
+        <img
+          src={chopsuiSvg}
+          alt="chopsui"
+          className="mt-20 md:w-[501px] w-48"
+        />
         <h1 className="font-rubik md:text-4xl text-lg text-white md:font-bold mt-7">
           A robust yield strategy platform.
         </h1>
@@ -42,7 +47,7 @@ export default function EnterApp() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button className="bg-blue-50 !p-2">
+              <Button className="bg-blue-50 !p-2" aria-label="twitter">
                 <img src={twitterSvg} className="w-5 h-5" />
               </Button>
             </Link>
@@ -52,7 +57,11 @@ export default function EnterApp() {
               rel="noopener noreferrer"
             >
               <Button className="bg-blue-50 !p-2">
-                <img src={discordSvg} className="w-5 h-5" />
+                <img
+                  src={discordSvg}
+                  className="w-5 h-5"
+                  aria-label="discord"
+                />
               </Button>
             </Link>
           </div>
