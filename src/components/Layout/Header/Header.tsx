@@ -11,8 +11,8 @@ export default function Header() {
           className="!px-2 flex md:place-items-center"
           aria-label="logobutton"
         >
-          <img src={logoSvg} />
-          <img src={chopsuiSvg} className="md:w w-20" />
+          <img src={logoSvg} alt="logo" />
+          <img src={chopsuiSvg} alt="chopsui" className="md:w w-20" />
         </Button>
         <div className=" md:flex hidden place-content-center text-white font-lemon  ">
           <Button>Features</Button>

@@ -35,11 +35,11 @@ export default function EnterApp() {
           className="text-secondary-50 mt-7 md:w-96 col-span-2  !font-[inter] justify-between md:!px-7 py-3 md:py-5 gap-20 text-base md:text-xl"
         >
           Enter App
-          <img src={arrowSvg} />
+          <img src={arrowSvg} alt="arrow" />
         </Button>
         <div className="flex mt-7">
           <Button className="font-lemon text-white text-base font-thin md:text-lg flex ">
-            Join us on <img src={arrowWhiteSvg} />
+            Join us on <img src={arrowWhiteSvg} alt="arrowwhite" />
           </Button>
           <div className="flex gap-3 font-rubik">
             <Link
@@ -48,7 +48,7 @@ export default function EnterApp() {
               rel="noopener noreferrer"
             >
               <Button className="bg-blue-50 !p-2" aria-label="twitter">
-                <img src={twitterSvg} className="w-5 h-5" />
+                <img src={twitterSvg} alt="twitter" className="w-5 h-5" />
               </Button>
             </Link>
             <Link
@@ -56,12 +56,8 @@ export default function EnterApp() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button className="bg-blue-50 !p-2">
-                <img
-                  src={discordSvg}
-                  className="w-5 h-5"
-                  aria-label="discord"
-                />
+              <Button className="bg-blue-50 !p-2" aria-label="discord">
+                <img src={discordSvg} className="w-5 h-5" alt="discord" />
               </Button>
             </Link>
           </div>

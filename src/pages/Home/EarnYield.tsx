@@ -18,7 +18,7 @@ export default function EarnYield() {
           EARN EXTRA YIELD
         </h1>
         <div className="flex gap-5 mt-8">
-          <img src={chartSvg} />
+          <img src={chartSvg} alt="chart" />
           <div className="grid  ">
             <h1 className="text-xl font-bold text-blue-50">
               Dashboard(coming soon)
