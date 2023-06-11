@@ -29,9 +29,8 @@ export default function EarnYield() {
         <div className="flex gap-5 mt-5">
           <img src={factSvg} alt="fact" />
           <div className="grid  ">
-            <h1 className="text-xl font-bold text-blue-50">
-              take $CHOP and other SUI-ecosystem tokens on our platform
-            </h1>
+            <h1 className="text-xl font-bold text-blue-50">Stake</h1>
+            <p>Stake $CHOP and other SUI-ecosystem tokens on our platform</p>
           </div>
         </div>
         <div className="flex gap-5 mt-5">

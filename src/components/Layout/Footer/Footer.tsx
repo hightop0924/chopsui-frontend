@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 export const links: LinkData[] = [
   {
-    title: "Service",
+    title: "Under development",
     sublinks: [
       { title: "Earn", link: "#" },
       { title: "Swap", link: "#" },
