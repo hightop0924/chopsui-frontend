@@ -27,7 +27,7 @@ export default function Header() {
           </div>
           <Button
             variant="primary"
-            className="text-secondary-50 flex  !font-[inter] 2xl:gap-20 xl:gap-15 py-3 lg:py-5 gap-2 text-xl"
+            className="text-secondary-50 flex  !font-[inter] 2xl:gap-10 xl:gap-7 py-2 gap-2 text-xl"
           >
             Enter App
             <img src={arrowSvg} alt="arrow" />
