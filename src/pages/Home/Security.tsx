@@ -19,7 +19,7 @@ function SecurityImage({
 }) {
   return (
     <div className="text-white p-5 px-8 w-[304px] h-[191px] rounded-lg font-rubik shadow-inner grid place-items-center shadow-blue-50 bg-gradient-to-t from-blue-300 to-blue-200">
-      <img src={src} />
+      <img src={src} alt="security image" />
       <h1 className="text-2xl">{title}</h1>
       <p className="text-xl text-grey-50">{content}</p>
     </div>

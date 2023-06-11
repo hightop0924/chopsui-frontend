@@ -19,7 +19,7 @@ function AboutImage({
       }
     >
       <p className="font-rubik px-5 text-xl text-white">{title}</p>
-      <img src={src} className="self-center" />
+      <img src={src} alt="about image" className="self-center" />
     </div>
   );
 }
