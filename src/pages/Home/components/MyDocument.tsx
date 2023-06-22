@@ -28,11 +28,7 @@ export default function MyDocument() {
   return (
     <div className="pt-150 bg-blue-300 grid ">
       <div className="grid place-content-center place-items-center">
-        <Document
-          className="w-11/12 h-[642px]"
-          file={chopsui}
-          onLoadSuccess={onDocumentLoadSuccess}
-        >
+        <Document file={chopsui} onLoadSuccess={onDocumentLoadSuccess}>
           <Page pageNumber={pageNumber} />
         </Document>
       </div>
