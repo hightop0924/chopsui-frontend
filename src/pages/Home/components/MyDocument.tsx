@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 import chopsui from "@/assets/chopsui.pdf";
 import { Button } from "@/components/Button";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import "react-pdf/dist/esm/Page/TextLayer.css";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -24,8 +26,8 @@ export default function MyDocument() {
   };
 
   return (
-    <div className="pt-150 bg-blue-300 grid">
-      <div className="">
+    <div className="pt-150 bg-blue-300 grid ">
+      <div className="grid place-content-center place-items-center">
         <Document
           className="w-11/12 h-[642px]"
           file={chopsui}
