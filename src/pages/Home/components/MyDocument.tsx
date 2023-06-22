@@ -25,8 +25,12 @@ export default function MyDocument() {
 
   return (
     <div className="pt-150 bg-blue-300 grid">
-      <div className="w-11/12 h-96">
-        <Document file={chopsui} onLoadSuccess={onDocumentLoadSuccess}>
+      <div className="">
+        <Document
+          className="w-11/12 h-96"
+          file={chopsui}
+          onLoadSuccess={onDocumentLoadSuccess}
+        >
           <Page pageNumber={pageNumber} />
         </Document>
       </div>
