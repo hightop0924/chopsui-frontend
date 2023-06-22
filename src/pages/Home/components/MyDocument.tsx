@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
-import chopsui from "./chopsui.pdf";
+import chopsui from "@/assets/chopsui.pdf";
 import { Button } from "@/components/Button";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -25,9 +25,11 @@ export default function MyDocument() {
 
   return (
     <div className="pt-150 bg-blue-300 grid">
-      <Document file={chopsui} onLoadSuccess={onDocumentLoadSuccess}>
-        <Page pageNumber={pageNumber} />
-      </Document>
+      <div className="w-11/12 h-96">
+        <Document file={chopsui} onLoadSuccess={onDocumentLoadSuccess}>
+          <Page pageNumber={pageNumber} />
+        </Document>
+      </div>
       <div className="flex place-content-between">
         <Button
           variant="primary"
