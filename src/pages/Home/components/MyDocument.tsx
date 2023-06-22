@@ -26,7 +26,7 @@ export default function MyDocument() {
   };
 
   return (
-    <div className="pt-[95px] bg-blue-300 grid py-10">
+    <div className="pt-[80px] bg-blue-300 grid py-10">
       <div className="grid place-content-center place-items-center">
         <Document
           file={chopsui}
