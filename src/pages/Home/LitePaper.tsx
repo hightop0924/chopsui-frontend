@@ -15,14 +15,25 @@ export default function LitePaper() {
           ecosystem. The team is vested and in it for the long-term success of
           our platform.
         </p>
-        <Link
-          // to={"https://pdfhost.io/v/5rJBRKw492_ChopSui "}
-          to={"/chopsui-literpaper"}
-          target="_blank"
-          className="text-lg text-blue-50 underline underline-offset-4"
-        >
-          Litepaper
-        </Link>
+        {window.innerWidth > 768 ? (
+          <Link
+            // to={"https://pdfhost.io/v/5rJBRKw492_ChopSui "}
+            to={"/chopsui-literpaper"}
+            target="_blank"
+            className="text-lg text-blue-50 underline underline-offset-4"
+          >
+            Litepaper
+          </Link>
+        ) : (
+          <a
+            href={"@/assets/chopsui.pdf"}
+            // to={"/chopsui-literpaper"}
+            target="_blank"
+            className="text-lg text-blue-50 underline underline-offset-4"
+          >
+            Litepaper
+          </a>
+        )}
       </div>
       <img src={litePaperSvg} alt="literpaper" className="md:mt-0 mt-10" />
     </div>
