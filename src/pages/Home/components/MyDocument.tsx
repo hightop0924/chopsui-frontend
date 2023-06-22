@@ -30,7 +30,7 @@ export default function MyDocument() {
       <div className="grid place-content-center place-items-center">
         <Document
           file={chopsui}
-          className={numPages === 1 ? "hidden" : "block mt-32"}
+          className={numPages === 1 ? "hidden" : "block mt-4"}
           onLoadSuccess={onDocumentLoadSuccess}
         >
           <Page pageNumber={pageNumber} />
