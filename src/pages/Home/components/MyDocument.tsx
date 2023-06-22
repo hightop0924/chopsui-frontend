@@ -26,11 +26,11 @@ export default function MyDocument() {
   };
 
   return (
-    <div className="pt-150 bg-blue-300 grid py-10">
+    <div className={numPages !== 1 ? "pt-[110px] bg-blue-300 grid py-10" : ""}>
       <div className="grid place-content-center place-items-center">
         <Document
           file={chopsui}
-          className="mt-32"
+          className={numPages !== 1 ? "hidden" : "block mt-32"}
           onLoadSuccess={onDocumentLoadSuccess}
         >
           <Page pageNumber={pageNumber} />
