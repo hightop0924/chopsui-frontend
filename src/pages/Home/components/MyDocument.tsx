@@ -26,8 +26,8 @@ export default function MyDocument() {
   };
 
   return (
-    <div className="pt-150 bg-blue-300 grid ">
-      <div className="grid place-content-center place-items-center mt-32">
+    <div className="pt-150 bg-blue-300 grid py-10">
+      <div className="grid place-content-center place-items-center">
         <Document
           file={chopsui}
           className="mt-32"
@@ -41,14 +41,14 @@ export default function MyDocument() {
           <Button
             variant="primary"
             onClick={onBefore}
-            className="text-secondary-50 mt-7 md:w-96 col-span-2  !font-[inter] justify-between md:!px-7 py-3 md:py-5 gap-20 text-base md:text-xl"
+            className="text-secondary-50 mt-7 md:w-32  justify-between md:!px-7 py-3 md:py-5 gap-20 text-base md:text-xl"
           >
             Before
           </Button>
           <Button
             onClick={onNext}
             variant="primary"
-            className="text-secondary-50 mt-7 md:w-96 col-span-2  !font-[inter] justify-between md:!px-7 py-3 md:py-5 gap-20 text-base md:text-xl"
+            className="text-secondary-50 mt-7 md:w-32  justify-between md:!px-7 py-3 md:py-5 gap-20 text-base md:text-xl"
           >
             Next
           </Button>
