@@ -15,8 +15,8 @@ export default function LitePaper() {
           our platform.
         </p>
         <Link
-          // to={"https://pdfhost.io/v/5rJBRKw492_ChopSui "}
-          to={"/chopsui-literpaper"}
+          to={"https://pdfhost.io/v/5rJBRKw492_ChopSui "}
+          // to={"/chopsui-literpaper"}
           target="_blank"
           className="text-lg text-blue-50 underline underline-offset-4"
         >
