@@ -3,6 +3,7 @@ import { Button } from "@/components/Button";
 
 import { Link } from "react-router-dom";
 import chopsui from "@/assets/chopsui.pdf";
+import { toast } from "react-toastify";
 
 export default function LitePaper() {
   return (
@@ -16,7 +17,17 @@ export default function LitePaper() {
           ecosystem. The team is vested and in it for the long-term success of
           our platform.
         </p>
-        {window.innerWidth > 768 ? (
+        <a
+          // to={"https://pdfhost.io/v/5rJBRKw492_ChopSui "}
+          onClick={() => {
+            toast.success("Coming soon.");
+          }}
+          target="_blank"
+          className="text-lg text-blue-50 underline underline-offset-4"
+        >
+          Litepaper
+        </a>
+        {/* {window.innerWidth > 768 ? (
           <Link
             // to={"https://pdfhost.io/v/5rJBRKw492_ChopSui "}
             to={"/chopsui-literpaper"}
@@ -38,7 +49,7 @@ export default function LitePaper() {
           >
             Litepaper
           </a>
-        )}
+        )} */}
       </div>
       <img src={litePaperSvg} alt="literpaper" className="md:mt-0 mt-10" />
     </div>
