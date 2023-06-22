@@ -3,6 +3,7 @@ import { HomePage } from "./pages/Home";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Layout } from "./components/Layout";
+import { MyDocument } from "./pages/Home/components";
 
 const router = createHashRouter([
   {
@@ -16,6 +17,10 @@ const router = createHashRouter([
       {
         path: "/home",
         element: <HomePage />,
+      },
+      {
+        path: "/chopsui-literpaper",
+        element: <MyDocument />,
       },
     ],
   },
