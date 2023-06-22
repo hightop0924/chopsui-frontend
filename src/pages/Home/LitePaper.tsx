@@ -2,6 +2,7 @@ import litePaperSvg from "@/assets/svgs/litepaper.svg";
 import { Button } from "@/components/Button";
 
 import { Link } from "react-router-dom";
+import chopsui from "@/assets/chopsui.pdf";
 
 export default function LitePaper() {
   return (
@@ -26,9 +27,13 @@ export default function LitePaper() {
           </Link>
         ) : (
           <a
-            href={"@/assets/chopsui.pdf"}
+            // href="@/assets/chopsui.pdf"
+            href={chopsui}
             // to={"/chopsui-literpaper"}
             target="_blank"
+            type="application/pdf"
+            rel="alternate"
+            media="print"
             className="text-lg text-blue-50 underline underline-offset-4"
           >
             Litepaper
