@@ -27,7 +27,7 @@ export default function MyDocument() {
     <div className="pt-150 bg-blue-300 grid">
       <div className="">
         <Document
-          className="w-11/12 h-96"
+          className="w-11/12 h-[642px]"
           file={chopsui}
           onLoadSuccess={onDocumentLoadSuccess}
         >
