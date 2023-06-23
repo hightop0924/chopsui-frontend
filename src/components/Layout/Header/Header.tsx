@@ -2,6 +2,7 @@ import logoSvg from "@/assets/svgs/logo.svg";
 import chopsuiSvg from "@/assets/svgs/chopsui.svg";
 import arrowSvg from "@/assets/svgs/arrow.svg";
 import { Button } from "@/components/Button";
+import chopsui from "@/assets/chopsui.pdf";
 
 export default function Header() {
   return (
@@ -16,7 +17,15 @@ export default function Header() {
         </Button>
         <div className=" lg:flex hidden place-content-center text-white font-lemon  ">
           <Button>Features</Button>
-          <Button>Litepaper</Button>
+          <a
+            href={chopsui}
+            target="_blank"
+            type="application/pdf"
+            rel="alternate"
+            media="print"
+          >
+            <Button>Tokenimic</Button>
+          </a>
           <Button>About CHOPSUI</Button>
         </div>
         <div className="flex gap-2 items-center place-items-end place-content-end ">

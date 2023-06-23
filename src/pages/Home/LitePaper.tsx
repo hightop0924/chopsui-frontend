@@ -1,9 +1,6 @@
 import litePaperSvg from "@/assets/svgs/litepaper.svg";
-import { Button } from "@/components/Button";
 
-import { Link } from "react-router-dom";
 import chopsui from "@/assets/chopsui.pdf";
-import { toast } from "react-toastify";
 
 export default function LitePaper() {
   return (
