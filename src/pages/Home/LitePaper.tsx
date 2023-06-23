@@ -17,7 +17,7 @@ export default function LitePaper() {
           ecosystem. The team is vested and in it for the long-term success of
           our platform.
         </p>
-        <a
+        {/* <a
           // to={"https://pdfhost.io/v/5rJBRKw492_ChopSui "}
           onClick={() => {
             toast.success("Coming soon.");
@@ -26,30 +26,27 @@ export default function LitePaper() {
           className="text-lg text-blue-50 underline underline-offset-4"
         >
           Litepaper
-        </a>
-        {/* {window.innerWidth > 768 ? (
+        </a> */}
+        {window.innerWidth > 768 ? (
           <Link
-            // to={"https://pdfhost.io/v/5rJBRKw492_ChopSui "}
             to={"/chopsui-literpaper"}
             target="_blank"
             className="text-lg text-blue-50 underline underline-offset-4"
           >
-            Litepaper
+            Tokenimic
           </Link>
         ) : (
           <a
-            // href="@/assets/chopsui.pdf"
             href={chopsui}
-            // to={"/chopsui-literpaper"}
             target="_blank"
             type="application/pdf"
             rel="alternate"
             media="print"
             className="text-lg text-blue-50 underline underline-offset-4"
           >
-            Litepaper
+            Tokenimic
           </a>
-        )} */}
+        )}
       </div>
       <img src={litePaperSvg} alt="literpaper" className="md:mt-0 mt-10" />
     </div>
