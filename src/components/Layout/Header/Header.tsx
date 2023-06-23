@@ -25,7 +25,7 @@ export default function Header() {
             rel="alternate"
             media="print"
           >
-            Tokenimic
+            Tokenomics
           </a>
           <Button>About CHOPSUI</Button>
         </div>
