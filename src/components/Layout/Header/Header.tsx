@@ -18,13 +18,14 @@ export default function Header() {
         <div className=" lg:flex hidden place-content-center text-white font-lemon  ">
           <Button>Features</Button>
           <a
+            className="hover:opacity-90 active:opacity-75 font-bold rounded-lg py-1 tracking-widest px-5 flex place-items-center "
             href={chopsui}
             target="_blank"
             type="application/pdf"
             rel="alternate"
             media="print"
           >
-            <Button>Tokenimic</Button>
+            Tokenimic
           </a>
           <Button>About CHOPSUI</Button>
         </div>
