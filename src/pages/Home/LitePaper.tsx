@@ -27,7 +27,7 @@ export default function LitePaper() {
         >
           Litepaper
         </a> */}
-        {window.innerWidth > 768 ? (
+        {/* {window.innerWidth > 768 ? (
           <Link
             to={"/chopsui-literpaper"}
             target="_blank"
@@ -35,18 +35,18 @@ export default function LitePaper() {
           >
             Tokenimic
           </Link>
-        ) : (
-          <a
-            href={chopsui}
-            target="_blank"
-            type="application/pdf"
-            rel="alternate"
-            media="print"
-            className="text-lg text-blue-50 underline underline-offset-4"
-          >
-            Tokenimic
-          </a>
-        )}
+        ) : ( */}
+        <a
+          href={chopsui}
+          target="_blank"
+          type="application/pdf"
+          rel="alternate"
+          media="print"
+          className="text-lg text-blue-50 underline underline-offset-4"
+        >
+          Tokenimic
+        </a>
+        {/* )} */}
       </div>
       <img src={litePaperSvg} alt="literpaper" className="md:mt-0 mt-10" />
     </div>
