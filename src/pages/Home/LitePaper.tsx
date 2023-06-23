@@ -41,7 +41,7 @@ export default function LitePaper() {
           media="print"
           className="text-lg text-blue-50 underline underline-offset-4"
         >
-          Tokenimic
+          Tokenomics
         </a>
         {/* )} */}
       </div>
