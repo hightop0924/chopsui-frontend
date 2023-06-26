@@ -15,7 +15,7 @@ export default function Header() {
           <img src={logoSvg} alt="logo" />
           <img src={chopsuiSvg} alt="chopsui" className="lg:w w-20" />
         </Button>
-        <div className=" lg:flex hidden place-content-center text-white font-rubik  ">
+        <div className=" lg:flex hidden place-content-center text-white  font-rubik ">
           <Button>Whitepaper</Button>
           <a
             className="hover:opacity-90 active:opacity-75 font-bold rounded-lg py-1 tracking-widest px-5 flex place-items-center "
@@ -36,7 +36,7 @@ export default function Header() {
           </div>
           <Button
             variant="primary"
-            className="text-secondary-50 flex  !font-[inter] 2xl:gap-10 xl:gap-7 py-2 gap-2 text-xl"
+            className="text-secondary-50 flex  2xl:gap-10 xl:gap-7 py-2 gap-2 text-xl"
           >
             Enter App
             <img src={arrowSvg} alt="arrow" />

@@ -26,7 +26,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         type={type}
         className={
           (variant !== undefined ? background[variant] : "") +
-          "hover:opacity-90 active:opacity-75 font-bold rounded-lg py-1 tracking-widest px-5 flex place-items-center " +
+          "hover:opacity-90 active:opacity-75 font-bold  font-rubik rounded-lg py-1 tracking-widest px-5 flex place-items-center " +
           className
         }
         {...rest}
