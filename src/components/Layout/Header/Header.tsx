@@ -16,7 +16,7 @@ export default function Header() {
           <img src={chopsuiSvg} alt="chopsui" className="lg:w w-20" />
         </Button>
         <div className=" lg:flex hidden place-content-center text-white font-lemon  ">
-          <Button>Features</Button>
+          <Button>Whitepaper</Button>
           <a
             className="hover:opacity-90 active:opacity-75 font-bold rounded-lg py-1 tracking-widest px-5 flex place-items-center "
             href={chopsui}
@@ -27,7 +27,6 @@ export default function Header() {
           >
             Tokenomics
           </a>
-          <Button>About CHOPSUI</Button>
         </div>
         <div className="flex gap-2 items-center place-items-end place-content-end ">
           <div className="bg-blue-50 hidden pl-2 h-11 rounded-lg lg:grid  justify-items-end">
