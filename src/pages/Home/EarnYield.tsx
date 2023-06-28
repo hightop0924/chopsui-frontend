@@ -14,9 +14,7 @@ export default function EarnYield() {
         className="lg:justify-self-start justify-self-center"
       />
       <div className=" content-start">
-        <h1 className=" text-secondary-50 text-2xl md:text-4xl font-bold">
-          EARN EXTRA YIELD
-        </h1>
+        <h1 className="  text-2xl md:text-4xl font-bold">EARN EXTRA YIELD</h1>
         <div className="flex gap-5 mt-8">
           <img src={chartSvg} alt="chart" />
           <div className="grid  ">
