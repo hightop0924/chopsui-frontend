@@ -29,14 +29,14 @@ export default function Header() {
           </a>
         </div>
         <div className="flex gap-2 items-center place-items-end place-content-end ">
-          <div className="bg-blue-50 hidden pl-2 h-11 rounded-lg lg:grid  justify-items-end">
-            <div className="flex items-center justify-end bg-black-50 rounded-lg h-11 text-white px-2 rooun  gap-3">
+          <div className="bg-blue-50 hidden pl-2 rounded-lg lg:grid h-14 justify-items-end">
+            <div className="flex items-center justify-end bg-black-50 rounded-lg  text-white px-2 rooun  gap-3">
               <img src={logoSvg} alt="logo" className="w-7 h-7" /> $ 0.683
             </div>
           </div>
           <Button
             variant="primary"
-            className="text-secondary-50 flex  2xl:gap-10 xl:gap-7 py-2 gap-2 text-xl"
+            className="text-secondary-50 flex h-14 2xl:gap-10 xl:gap-7 py-2 gap-2 text-xl"
           >
             Enter App
             <img src={arrowSvg} alt="arrow" />

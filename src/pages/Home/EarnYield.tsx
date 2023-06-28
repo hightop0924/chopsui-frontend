@@ -55,7 +55,7 @@ export default function EarnYield() {
         </div>
         <Button
           variant="primary"
-          className="text-secondary-50 mt-8 md:w-96 col-span-2  justify-between md:!px-7 md:py-5 py-4 gap-20 text-lg"
+          className="text-secondary-50 mt-8 md:w-96 col-span-2  justify-between md:!px-7 h-14 gap-20 text-lg"
         >
           Start Earning
           <img src={arrowSvg} alt="arrow" />

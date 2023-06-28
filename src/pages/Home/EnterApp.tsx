@@ -32,7 +32,7 @@ export default function EnterApp() {
         </h1>
         <Button
           variant="primary"
-          className="text-secondary-50 mt-7 md:w-96 col-span-2 justify-between md:!px-7 py-3 md:py-5 gap-20 text-base md:text-xl"
+          className="text-secondary-50 mt-7 col-span-2 justify-between h-14 md:py-5 gap-20 text-xl"
         >
           Enter App
           <img src={arrowSvg} alt="arrow" />
