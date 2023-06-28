@@ -1,7 +1,7 @@
 import React, { type ButtonHTMLAttributes } from "react";
 
 const background = {
-  primary: "bg-blue-50 ",
+  primary: "bg-blue-400 shadow-[0px_0px_15px_0px_#000000E0_inset]  ",
   success: "bg-secondary-50 text-white ",
   normal: "bg-white ",
 };
