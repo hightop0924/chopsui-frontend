@@ -4,6 +4,7 @@ import arrowSvg from "@/assets/svgs/arrow.svg";
 import { Button } from "@/components/Button";
 import chopsui from "@/assets/chopsui.pdf";
 import { useCallback, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function HomeHeader() {
   const [flag, setFlag] = useState(false);
@@ -33,7 +34,13 @@ export default function HomeHeader() {
           <img src={chopsuiSvg} alt="chopsui" className="md:w-40 w-32" />
         </Button>
         <div className=" lg:flex hidden place-content-center text-white  font-rubik ">
-          <Button>Whitepaper</Button>
+          <Link
+            className="hover:opacity-90 active:opacity-75 font-bold rounded-lg py-1 tracking-widest px-5 flex place-items-center "
+            target="_blank"
+            to="https://chopsui.gitbook.io/chopsui-whitepaper/"
+          >
+            Whitepaper
+          </Link>
           <a
             className="hover:opacity-90 active:opacity-75 font-bold rounded-lg py-1 tracking-widest px-5 flex place-items-center "
             href={chopsui}
