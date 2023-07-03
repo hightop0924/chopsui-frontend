@@ -3,10 +3,11 @@ import React, { type InputHTMLAttributes } from "react";
 const background = {
   primary: "bg-white ",
   success: " border-2 border-grey-50 ",
+  none: " ",
 };
 
 export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
-  variant?: "primary" | "success";
+  variant?: "primary" | "success" | "none";
 }
 
 const Input = React.forwardRef<HTMLInputElement, InputProps>(
@@ -17,7 +18,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
         type={type}
         className={
           (variant !== undefined ? background[variant] : "") +
-          "rounded-lg outline-none border-2 border-grey-50 px-2 " +
+          "rounded-lg outline-none  px-2 " +
           className
         }
         {...props}

@@ -17,7 +17,7 @@ export default function EnterApp() {
         className="right-0 top-0 md:block hidden  absolute z-0  "
       ></img>
       <div
-        className="bg-gradient-to-t from-primary-50 to-primary-150 pt-20 md:pt-32  px-5  md:px-32"
+        className="bg-gradient-to-t from-primary-50 to-primary-150 pt-10 md:py-56  px-5 py-5  md:px-32"
         style={{
           backgroundImage: `url(${enterAppSvg})`,
         }}
@@ -27,18 +27,18 @@ export default function EnterApp() {
           alt="chopsui"
           className="mt-20 md:w-[501px] w-48"
         />
-        <h1 className="font-rubik md:text-4xl text-lg text-white md:font-bold mt-7">
+        <h1 className="font-rubik md:text-4xl text-lg text-white md:font-bold mt-5 md:mt-10">
           A robust yield strategy platform.
         </h1>
         <Button
           variant="primary"
-          className=" mt-7 col-span-2 justify-between h-14 md:py-5 gap-20 text-xl"
+          className=" mt-5 col-span-2 justify-between h-14 md:py-5 gap-20 text-xl md:mt-10"
         >
           Enter App
           <img src={arrowSvg} alt="arrow" />
         </Button>
-        <div className="flex mt-7">
-          <Button className=" text-white text-base font-thin md:text-lg flex ">
+        <div className="flex mt-5 md:mt-10">
+          <Button className=" text-white text-base font-thin md:text-2xl md:font-bold font-rubik flex ">
             Join us on <img src={arrowWhiteSvg} alt="arrowwhite" />
           </Button>
           <div className="flex gap-3 font-rubik">

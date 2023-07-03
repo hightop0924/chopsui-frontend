@@ -4,11 +4,14 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Layout } from "./components/Layout";
 import { MyDocument } from "./pages/Home/components";
+import { Dashboard } from "./pages/Dashboard";
+import Swap from "./pages/Swap/Swap";
+import { HomeLayout } from "./components/HomeLayout";
 
 const router = createHashRouter([
   {
     path: "/",
-    element: <Layout />,
+    element: <HomeLayout />,
     children: [
       {
         path: "/",
@@ -18,9 +21,19 @@ const router = createHashRouter([
         path: "/home",
         element: <HomePage />,
       },
+    ],
+  },
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
       {
-        path: "/chopsui-literpaper",
-        element: <MyDocument />,
+        path: "/dashboard",
+        element: <Dashboard />,
+      },
+      {
+        path: "/swap",
+        element: <Swap />,
       },
     ],
   },

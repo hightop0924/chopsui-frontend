@@ -27,7 +27,7 @@ const links: LinkData[] = [
   },
 ];
 
-export default function Footer() {
+export default function HomeFooter() {
   return (
     <div className="grid font-rubik py-10 bg-gradient-to-t from-primary-50 2xl:px-32 xl:px-24 lg:px-10 md:px-5 px-5 to-primary-150 gap-10 place-items-center">
       <div className="grid md:grid-cols-10 grid-cols-1  px-5 place-items-start  md:place-content-between  text-white w-full">
