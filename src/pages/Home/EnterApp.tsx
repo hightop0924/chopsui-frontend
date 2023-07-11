@@ -21,9 +21,9 @@ export default function EnterApp() {
   );
 
   return (
-    <div className="bg-gradient-to-t from-primary-400 to-primary-500 -z-20">
+    <div className="bg-gradient-to-t from-primary-400 to-primary-500 -z-10">
       <Particles
-        className="flex"
+        className=""
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
@@ -126,12 +126,12 @@ export default function EnterApp() {
         }}
       />
       <div
-        className="flex justify-around  bg-cover bg-top bg-no-repeat  bg-origin-border pt-10 md:py-56  px-5 py-5  md:px-32"
+        className="flex justify-around bg-cover bg-top bg-no-repeat  bg-origin-border pt-10 md:py-56  px-5 py-5  md:px-32"
         // style={{
         //   backgroundImage: `url(${enterAppSvg})`,
         // }}
       >
-        <div>
+        <div className="relative">
           <h1 className="font-rubik md:text-6xl md:max-w-2xl text-lg text-blue-10 md:font-bold mt-5 md:mt-20">
             Fast and robust yield strategy platform
           </h1>
