@@ -1,10 +1,9 @@
-import logoSvg from "@/assets/svgs/logo.svg";
-import chopsuiSvg from "@/assets/svgs/chopsui.svg";
 import twitterSvg from "@/assets/svgs/twitter.svg";
 import discordSvg from "@/assets/svgs/discord.svg";
 import { Button } from "@/components/Button";
 import { LinkData } from "@/types";
 import { Link } from "react-router-dom";
+import earthSvg from "@/assets/svgs/earth.svg";
 
 const links: LinkData[] = [
   {
@@ -29,19 +28,15 @@ const links: LinkData[] = [
 
 export default function HomeFooter() {
   return (
-    <div className="grid font-rubik py-10 bg-gradient-to-t from-primary-50 2xl:px-32 xl:px-24 lg:px-10 md:px-5 px-5 to-primary-150 gap-10 place-items-center">
-      <div className="grid md:grid-cols-10 grid-cols-1  px-5 place-items-start  md:place-content-between  text-white w-full">
-        <div className="md:col-span-2 grid pr-2">
-          <img src={logoSvg} alt="logo" className="w-32 place-self-center" />
-          <img src={chopsuiSvg} alt="chopsui" className="w-40" />
-        </div>
-        <div className="grid gap-3 md:col-span-5 md:mt-0 mt-10 ">
-          <h1 className="font-rubik text-secondary-50 text-xl font-bold uppercase">
+    <div className="grid font-rubik py-10 bg-primary-300 md:px-24  px-5  place-items-center">
+      <div className="flex  place-items-center place-content-around text-white w-full">
+        <div className="grid gap-3  md:mt-0 mt-10 ">
+          <h1 className="font-rubik text-secondary-150 text-3xl max-w-xl font-bold uppercase">
             Dashboard, Yield Strategy and Analytics
           </h1>
-          <p className="md:max-w-xs text-lg">
+          <p className=" text-xl tracking-wide md:max-w-md font-medium">
             Our community is building an expansive decentralized trading
-            platform for the future finance. Join us!
+            platform for the future of finance. Join us!
           </p>
           <div className="flex gap-3 font-rubik">
             <Link
@@ -49,8 +44,20 @@ export default function HomeFooter() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button className="bg-secondary-100 !p-2" aria-label="twitter">
-                <img src={twitterSvg} alt="twitter" className="w-5 h-5" />
+              <Button
+                className="bg-secondary-150 relative !px-6 !py-4 group"
+                aria-label="twitter"
+              >
+                <img
+                  src={twitterSvg}
+                  alt="twitter"
+                  className="w-7 h-7 group-hover:animate-ping absolute inline-flex"
+                />
+                <img
+                  src={twitterSvg}
+                  alt="twitter"
+                  className="w-7 h-7 relative inline-flex "
+                />
               </Button>
             </Link>
             <Link
@@ -58,14 +65,26 @@ export default function HomeFooter() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button className="bg-secondary-100 !p-2" aria-label="discord">
-                <img src={discordSvg} alt="discord" className="w-5 h-5" />
+              <Button
+                className="bg-secondary-150 relative !px-6 !py-4 group"
+                aria-label="discord"
+              >
+                <img
+                  src={discordSvg}
+                  alt="discord"
+                  className="w-7 absolute inline-flex  h-7 group-hover:animate-ping"
+                />
+                <img
+                  src={discordSvg}
+                  alt="discord"
+                  className=" relative inline-flex  rounded-full w-7 h-7 "
+                />
               </Button>
             </Link>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-16 md:gap-10 md:col-span-3 md:my-0 my-5 ">
-          {links.map((link, index) => (
+        {/* <div className="grid grid-cols-2 gap-16 md:gap-10 md:col-span-3 md:my-0 my-5 "> */}
+        {/* {links.map((link, index) => (
             <div key={index} className="grid gap-1 content-start">
               <h1 className="text-xl text-secondary-50 font-bold">
                 {link.title}
@@ -74,10 +93,10 @@ export default function HomeFooter() {
                 <p key={index}>{sublink.title}</p>
               ))}
             </div>
-          ))}
-        </div>
+          ))} */}
+        <img src={earthSvg} alt="earth" />
+        {/* </div> */}
       </div>
-      <div className="h-[1px] bg-blue-100 w-11/12"></div>
       <div className="md:text-xl text-base text-white ">
         Copyright © 2023 CHOPSUI. All rights reserved
       </div>

@@ -4,10 +4,12 @@ const background = {
   primary: "text-white bg-blue-400 shadow-[0px_0px_15px_0px_#000000E0_inset]  ",
   success: "bg-secondary-50 text-white ",
   normal: "bg-white ",
+  secondary:
+    "bg-gradient-to-b from-secondary-50 to-secondary-100 text-primary-100 ",
 };
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "primary" | "success" | "normal";
+  variant?: "primary" | "success" | "normal" | "secondary";
 }
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(

@@ -1,63 +1,21 @@
-import listSvg from "@/assets/svgs/list.svg";
-import farmSvg from "@/assets/svgs/farm.svg";
-import factSvg from "@/assets/svgs/fact.svg";
-import chartSvg from "@/assets/svgs/chart.svg";
-import arrowSvg from "@/assets/svgs/arrow.svg";
+import dashboardSvg from "@/assets/svgs/earn_yields/dashboard.png";
+import stakeSvg from "@/assets/svgs/earn_yields/stake.svg";
+import farmSvg from "@/assets/svgs/earn_yields/farm.svg";
+import yieldSvg from "@/assets/svgs/earn_yields/yield.svg";
+
 import { Button } from "@/components/Button";
 
 export default function EarnYield() {
   return (
-    <div className="bg-gradient-to-t gap-5 from-primary-50 grid p-5 lg:grid-cols-2 font-rubik  text-white to-primary-150 md:p-20 md:px-32">
-      <img
-        src={listSvg}
-        alt="list"
-        className="lg:justify-self-start justify-self-center"
-      />
-      <div className=" content-start">
-        <h1 className="  text-2xl md:text-4xl font-bold">EARN EXTRA YIELD</h1>
-        <div className="flex gap-5 mt-8">
-          <img src={chartSvg} alt="chart" />
-          <div className="grid  ">
-            <h1 className="text-xl font-bold text-blue-50">
-              Dashboard(coming soon)
-            </h1>
-            <p>Access protocol analytics (TVL, APY, etc.).</p>
-          </div>
-        </div>
-        <div className="flex gap-5 mt-5">
-          <img src={factSvg} alt="fact" />
-          <div className="grid  ">
-            <h1 className="text-xl font-bold text-blue-50">Stake</h1>
-            <p>Stake $CHOP and other SUI-ecosystem tokens on our platform</p>
-          </div>
-        </div>
-        <div className="flex gap-5 mt-5">
-          <img src={farmSvg} alt="farm" />
-          <div className="grid  ">
-            <h1 className="text-xl font-bold text-blue-50">Yield farms</h1>
-            <p>
-              Staking CHOP in a CHOP Earnings Pool rewards you with native
-              tokens with the platform’s earnings.
-            </p>
-          </div>
-        </div>
-        <div className="flex gap-5 mt-5">
-          <img src={farmSvg} alt="farm" />
-          <div className="grid  ">
-            <h1 className="text-xl font-bold text-blue-50">Yield strategy</h1>
-            <p>
-              Want even higher earnings? Try our leveraged yield farms for even
-              higher %APY, for experienced farmers only!
-            </p>
-          </div>
-        </div>
-        <Button
-          variant="primary"
-          className="text-secondary-50 mt-8 md:w-96 col-span-2  justify-between md:!px-7 h-14 gap-20 text-lg"
-        >
-          Start Earning
-          <img src={arrowSvg} alt="arrow" />
-        </Button>
+    <div className=" bg-gradient-to-b from-primary-400 to-primary-300 flex flex-col gap-10 p-5  font-rubik text-center place-content-center text-white md:p-20 md:px-32">
+      <h1 className="text-4xl font-bold text-secondary-150">
+        EARN EXTRA YIELD
+      </h1>
+      <div className="flex flex-wrap justify-around">
+        <img src={dashboardSvg} alt="dashboard" />
+        <img src={stakeSvg} alt="stake" />
+        <img src={farmSvg} alt="farm" />
+        <img src={yieldSvg} alt="yield" />
       </div>
     </div>
   );
