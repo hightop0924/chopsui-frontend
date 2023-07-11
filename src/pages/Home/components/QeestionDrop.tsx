@@ -20,13 +20,13 @@ const QuestionTab = React.forwardRef<HTMLElement, DivProps>(
     return (
       <div
         className={
-          "  bg-primary-600 w-[712px] rounded-xl grid grid-cols-1 gap-10 border-l-8 border-secondary-50  px-10 text-xl py-7 text-blue-10 text-left " +
+          "  bg-primary-600 w-full md:w-[712px] rounded-xl grid grid-cols-1 gap-10 border-l-8 border-secondary-50 px-5  md:px-10 text-xl py-7 text-blue-10 text-left " +
           className
         }
       >
         <Button
           onClick={handleOpen}
-          className="flex justify-between text-2xl px-0  text-secondary-150 w-full "
+          className="flex justify-between text-xl md:text-2xl !px-0  text-secondary-150 w-full "
         >
           {title}{" "}
           <img

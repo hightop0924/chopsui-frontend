@@ -4,18 +4,6 @@ import questionBackSvg from "@/assets/svgs/questionback.svg";
 import questionBack1Svg from "@/assets/svgs/questionback1.svg";
 
 export default function Question() {
-  const divContent = () => {
-    return (
-      <>
-        <h1>Initial supply: 18,569,885,765 $CHOP</h1>
-        <h1>Total supply: 69,420,133,700 $CHOP</h1>
-        <p className="text-secondary-150">
-          For more information read our Tokenomics docs
-        </p>
-      </>
-    );
-  };
-
   return (
     <div className="relative bg-primary-300 grid font-rubik text-white p-5 md:p-20 ">
       <img

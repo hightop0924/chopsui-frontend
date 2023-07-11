@@ -28,13 +28,13 @@ const links: LinkData[] = [
 
 export default function HomeFooter() {
   return (
-    <div className="grid font-rubik py-10 bg-primary-300 md:px-24  px-5  place-items-center">
-      <div className="flex  place-items-center place-content-around text-white w-full">
+    <div className="grid font-rubik py-10 bg-primary-300 md:px-24   px-5  place-items-center">
+      <div className="flex md:flex-row flex-col md:gap-0 gap-10  place-items-center place-content-around text-blue-10 w-full">
         <div className="grid gap-3  md:mt-0 mt-10 ">
-          <h1 className="font-rubik text-secondary-150 text-3xl max-w-xl font-bold uppercase">
+          <h1 className="font-rubik text-secondary-150 text-2xl md:text-3xl max-w-xl font-bold uppercase">
             Dashboard, Yield Strategy and Analytics
           </h1>
-          <p className=" text-xl tracking-wide md:max-w-md font-medium">
+          <p className=" text-base md:text-xl tracking-wide md:max-w-md font-medium">
             Our community is building an expansive decentralized trading
             platform for the future of finance. Join us!
           </p>

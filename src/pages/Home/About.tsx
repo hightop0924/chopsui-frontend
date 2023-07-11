@@ -4,7 +4,7 @@ import chopsui from "@/assets/chopsui.pdf";
 export default function About() {
   return (
     <div className="">
-      <div className=" bg-primary-300 bg-blend-lighten flex justify-around font-rubik bg-cover bg-no-repeat bg-center  text-white p-5 md:p-10 ">
+      <div className=" bg-primary-300 bg-blend-lighten flex-col flex md:flex-row justify-around font-rubik bg-cover bg-no-repeat bg-center  text-white p-5 md:p-10 ">
         <div className="place-self-center grid gap-5 text-left max-w-xl ">
           <h1 className=" text-secondary-50 text-4xl font-bold">
             WHAT IS CHOPSUI?

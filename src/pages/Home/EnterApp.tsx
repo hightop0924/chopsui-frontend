@@ -126,13 +126,13 @@ export default function EnterApp() {
         }}
       />
       <div
-        className="flex justify-around bg-cover bg-top bg-no-repeat  bg-origin-border pt-10 md:py-56  px-5 py-5  md:px-32"
+        className="flex md:flex-row gap-10 md:gap-0 flex-col justify-around bg-cover bg-top bg-no-repeat  bg-origin-border py-32 md:py-56  px-5   md:px-32"
         // style={{
         //   backgroundImage: `url(${enterAppSvg})`,
         // }}
       >
         <div className="relative">
-          <h1 className="font-rubik md:text-6xl md:max-w-2xl text-lg text-blue-10 md:font-bold mt-5 md:mt-20">
+          <h1 className="font-rubik md:text-6xl md:max-w-2xl text-3xl font-bold text-blue-10 md:font-bold mt-5 md:mt-20">
             Fast and robust yield strategy platform
           </h1>
           <p className="font-rubik text-blue-10 mt-5">
@@ -153,20 +153,6 @@ export default function EnterApp() {
             width={700}
             height={600}
             alt="chart"
-          />
-          <img
-            src={logoShadowSvg}
-            width={124}
-            className=" absolute w-12 md:w-16 xl:w-20 2xl:w-24 2xl:left-32 xl:left-28 md:left-24 md:top-20 lg:top-28 xl:top-36 2xl:top-44 animate-pulse "
-            height={81}
-            alt="shadow"
-          />
-          <img
-            src={logoSvg}
-            alt="logo"
-            width={151}
-            height={115}
-            className=" absolute w-16 md:w-24 xl:w-28 2xl:w-36  2xl:left-32 xl:left-28 md:left-24 2xl:top-28 xl:top-28 lg:top-28 top-24 md:top-20 animate-bounce "
           />
         </div>
       </div>

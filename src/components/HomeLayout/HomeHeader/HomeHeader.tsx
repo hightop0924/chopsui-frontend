@@ -1,16 +1,14 @@
-import logoSvg from "@/assets/svgs/logo.svg";
 import chopsuiSvg from "@/assets/svgs/chopsui.svg";
-import arrowSvg from "@/assets/svgs/arrow.svg";
+import menuSvg from "@/assets/svgs/menu.svg";
 import { Button } from "@/components/Button";
 import chopsui from "@/assets/chopsui.pdf";
-import { useCallback, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function HomeHeader() {
   return (
     <div className="fixed top-0 right-0 left-0 z-50 ">
-      <div className="grid grid-flow-col  px-32 py-3  place-items-between bg-primary-50/80 text-white ">
-        <Button className=" flex lg:place-items-center" aria-label="logobutton">
+      <div className="grid grid-flow-col  md:px-32 py-3  place-items-between bg-primary-50/80 text-white ">
+        <Button className="" aria-label="logobutton">
           <img src={chopsuiSvg} alt="chopsui" className="md:w-48 w-32" />
         </Button>
         <div className=" lg:flex hidden place-content-center justify-self-end text-white  font-rubik ">
@@ -35,14 +33,14 @@ export default function HomeHeader() {
 
         <Button
           variant="secondary"
-          className=" flex justify-self-end h-12  py-2 gap-1 text-xl"
+          className=" lg:flex hidden justify-self-end h-12   py-2 gap-1 text-xl"
         >
           Enter App
         </Button>
+        <Button className="justify-self-end">
+          <img src={menuSvg} alt="menu" />
+        </Button>
       </div>
-      {/* {flag ? (
-        <div className="bg-blue-100/50 w-full h-[2px] lg:block hidden"></div>
-      ) : null} */}
     </div>
   );
 }
