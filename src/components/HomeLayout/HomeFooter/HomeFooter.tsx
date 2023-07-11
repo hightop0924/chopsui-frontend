@@ -51,7 +51,7 @@ export default function HomeFooter() {
                 <img
                   src={twitterSvg}
                   alt="twitter"
-                  className="w-7 h-7 group-hover:animate-ping absolute inline-flex"
+                  className="w-7 h-7 group-hover:animate-ping  absolute inline-flex"
                 />
                 <img
                   src={twitterSvg}

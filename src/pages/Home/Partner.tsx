@@ -6,7 +6,7 @@ export default function Partner() {
       <h1 className="text-secondary-150 uppercase text-4xl font-bold text-center ">
         Partners
       </h1>
-      <div className="flex justify-center md:mt-16 mt-4 gap-5">
+      <div className="flex flex-wrap justify-center md:mt-16 mt-4 gap-10">
         <img src={growthSvg} alt="growth" />
         <img src={growthSvg} alt="growth" />
         <img src={growthSvg} alt="growth" />

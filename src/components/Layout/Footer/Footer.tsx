@@ -79,7 +79,7 @@ export default function Footer() {
       </div>
       <div className="h-[1px] bg-blue-100 w-11/12"></div>
       <div className="md:text-xl text-base text-white ">
-        Copyright © 2023 CHOPSUI. All rights reserved
+        Copyright © CHOPSUI. All rights reserved
       </div>
     </div>
   );
