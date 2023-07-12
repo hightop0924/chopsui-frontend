@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { ConnectButton } from "@/components/ConnectButton";
 import { LinkData } from "@/types";
 import { Link, useLocation } from "react-router-dom";
+import { ConnectButton as SuiConnectButton } from '@suiet/wallet-kit';
 
 const links: LinkData[] = [
   { title: "Dashboard", link: "#" },
@@ -74,6 +75,13 @@ export default function Header() {
             className="bg-blue-50 p-3"
           ></ConnectButton>
         </div>
+      </div>
+      <div className="flex gap-2 items-center place-items-end place-content-end ">
+        <SuiConnectButton
+          style={{ width: '100%', padding: '0 0 0 0' }}
+          className=""
+          children={<ConnectButton walletColor="yellow" className="bg-blue-50 p-3" />}
+        />
       </div>
       {flag ? (
         <div className="bg-blue-100/50 w-full h-[2px] lg:block hidden"></div>

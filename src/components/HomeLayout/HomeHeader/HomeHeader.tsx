@@ -3,6 +3,8 @@ import menuSvg from "@/assets/svgs/menu.svg";
 import { Button } from "@/components/Button";
 import chopsui from "@/assets/chopsui.pdf";
 import { Link } from "react-router-dom";
+import {ConnectModal, ConnectButton as SuiConnectButton} from '@suiet/wallet-kit';
+import { ConnectButton } from "@/components/ConnectButton";
 
 export default function HomeHeader() {
   return (
@@ -37,6 +39,15 @@ export default function HomeHeader() {
         >
           Enter App
         </Button>
+
+        <div className="flex gap-2 items-center place-items-end place-content-end ">
+          <SuiConnectButton
+            style={{width:'100%', padding:'0 0 0 0'}}    
+            className=""
+            children={<ConnectButton walletColor="yellow" className="bg-blue-50 p-3"/>} 
+          /> 
+        </div>
+
         <Button className="justify-self-end lg:hidden block">
           <img src={menuSvg} alt="menu" />
         </Button>
