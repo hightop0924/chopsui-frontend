@@ -24,7 +24,7 @@ export default function Feature() {
         width={"100%"}
         height={"100%"}
         alt="feature"
-        className="mo:hidden block"
+        className="md:hidden block"
       />
     </div>
   );
