@@ -16,7 +16,7 @@ export default function Feature() {
         src={chopsuiFeatureSvg}
         width={"100%"}
         height={"100%"}
-        alt="feature"
+        alt="feature chopsui"
         className="md:block hidden"
       />
       <img
