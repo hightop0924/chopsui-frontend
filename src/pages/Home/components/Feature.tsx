@@ -2,8 +2,8 @@ import ChopsuiFeatureSvg from "@/assets/svgs/chopsuifeature.svg";
 
 export default function Feature() {
   return (
-    <div className="flex flex-col text-center gap-10 justify-center font-rubik md:pt-20 items-center bg-primary-300 px-20">
-      <h1 className="text-secondary-150 text-4xl font-bold ">
+    <div className="flex flex-col text-center gap-10 justify-center font-rubik md:pt-20 items-center bg-primary-300 px-5 md:px-20">
+      <h1 className="text-secondary-150 text-3xl md:text-4xl font-bold ">
         CHOPSUI FEATURES
       </h1>
       <p className="text-blue-10 text-xl max-w-3xl">

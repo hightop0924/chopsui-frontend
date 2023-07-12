@@ -37,7 +37,7 @@ export default function HomeHeader() {
         >
           Enter App
         </Button>
-        <Button className="justify-self-end">
+        <Button className="justify-self-end lg:hidden block">
           <img src={menuSvg} alt="menu" />
         </Button>
       </div>

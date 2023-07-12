@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Join() {
   return (
-    <div className="bg-primary-300 flex flex-col place-items-center gap-5 py-10 font-rubik md:block hidden">
+    <div className="bg-primary-300 md:flex flex-col place-items-center gap-5 py-10 font-rubik hidden">
       <h1 className="text-secondary-150 font-bold text-4xl ">
         Join Our Community
       </h1>

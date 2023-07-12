@@ -97,8 +97,9 @@ export default function HomeFooter() {
         <img src={earthSvg} alt="earth" />
         {/* </div> */}
       </div>
-      <div className="md:text-xl text-base text-white ">
-        Copyright © 2023 CHOPSUI. All rights reserved
+      <div className="md:text-xl text-base text-white text-center ">
+        Copyright © 2023 CHOPSUI.
+        <br className="md:hidden block" /> All rights reserved
       </div>
     </div>
   );
