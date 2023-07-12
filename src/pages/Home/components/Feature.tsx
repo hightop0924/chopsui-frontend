@@ -1,4 +1,5 @@
-import ChopsuiFeatureSvg from "@/assets/svgs/chopsuifeature.svg";
+import chopsuiFeatureSvg from "@/assets/svgs/chopsuifeature.svg";
+import chopsuiFeatureMobileSvg from "@/assets/svgs/chopsuifeaturemobile.svg";
 
 export default function Feature() {
   return (
@@ -12,10 +13,18 @@ export default function Feature() {
         providing seamless tracking of your earnings.
       </p>
       <img
-        src={ChopsuiFeatureSvg}
+        src={chopsuiFeatureSvg}
         width={"100%"}
         height={"100%"}
         alt="feature"
+        className="md:block hidden"
+      />
+      <img
+        src={chopsuiFeatureMobileSvg}
+        width={"100%"}
+        height={"100%"}
+        alt="feature"
+        className="mo:hidden block"
       />
     </div>
   );
